@@ -1,0 +1,1 @@
+gh api repos/SaranuwatSangsawang/lab6/collaborators/lazyleoh/permission --jq .permission && gh auth switch --user lazyleoh && git clone https://github.com/SaranuwatSangsawang/lab6.git lab6-collab && cd lab6-collab && echo "Push test" > collab-test.txt && git add collab-test.txt && git commit -m "Test push" && git push origin main
