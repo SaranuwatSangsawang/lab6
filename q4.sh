@@ -1,0 +1,1 @@
+gh auth switch --user SaranuwatSangsawang && gh api -X DELETE repos/SaranuwatSangsawang/lab6/collaborators/lazyleoh && gh auth switch --user lazyleoh && cd ~/lab6-collab && echo "This push from deleted" > collab-test2.txt && git add collab-test2.txt && git commit -m "Push test after removal" && git push origin main; gh auth switch --user SaranuwatSangsawang
